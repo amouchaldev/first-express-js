@@ -1,0 +1,22 @@
+GET http://127.0.0.1:3000/products
+Authorization: token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0NmUxYTdkOTkyMThhNzU5OTMxMmUzMSIsInVzZXJuYW1lIjoiYW1jYyIsInBhc3N3b3JkIjoiJDJiJDA2JHNVUnhZbEZzZldNeVV2YTNQbGtQek91ZkdKRnlzbUZHU1ZJMkhhOG9kYkNSQTYydUR3Lm1LIiwiX192IjowfSwiaWF0IjoxNjg0OTY1MDA2LCJleHAiOjE2ODQ5NjU5MDZ9.-mC4A4wSygxG0LPa_VAoAK040ujdlxI10vSqplgHPiM
+
+###
+
+POST http://127.0.0.1:3000/register
+Content-Type: application/json
+
+{
+    "username": "mst",
+    "password": "1234555"
+}
+
+###
+
+POST http://127.0.0.1:3000/login
+Content-Type: application/json 
+
+{
+    "username": "amcc",
+    "password": "1234555"
+}
